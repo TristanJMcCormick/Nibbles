@@ -20,6 +20,13 @@
 		1B9EB9B0166303D3001B788B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9EB991166303D2001B788B /* Foundation.framework */; };
 		1B9EB9B8166303D3001B788B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B9EB9B6166303D3001B788B /* InfoPlist.strings */; };
 		1B9EB9BB166303D3001B788B /* TristanMcCormickNibblesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9EB9BA166303D3001B788B /* TristanMcCormickNibblesTests.m */; };
+		1B9EB9C616630526001B788B /* Snake.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9EB9C516630526001B788B /* Snake.m */; };
+		1B9EB9C916630554001B788B /* World.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9EB9C816630554001B788B /* World.m */; };
+		1B9EB9CC1663058A001B788B /* Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9EB9CB1663058A001B788B /* Direction.m */; };
+		1B9EB9D31663099B001B788B /* NibblesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9EB9D21663099B001B788B /* NibblesView.m */; };
+		1BA60FB61667EFED005C5D5C /* snakeElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA60FB51667EFED005C5D5C /* snakeElement.m */; };
+		1BA60FBA1667F0E9005C5D5C /* snakeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA60FB91667F0E9005C5D5C /* snakeList.m */; };
+		1BA60FBD1667F143005C5D5C /* snakeQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA60FBC1667F143005C5D5C /* snakeQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B9B29FA16642C0800A3787E /* NibblesConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NibblesConstants.h; sourceTree = "<group>"; };
 		1B9EB98B166303D2001B788B /* TristanMcCormickNibbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TristanMcCormickNibbles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9EB98F166303D2001B788B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1B9EB991166303D2001B788B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,6 +60,20 @@
 		1B9EB9B7166303D3001B788B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1B9EB9B9166303D3001B788B /* TristanMcCormickNibblesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TristanMcCormickNibblesTests.h; sourceTree = "<group>"; };
 		1B9EB9BA166303D3001B788B /* TristanMcCormickNibblesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TristanMcCormickNibblesTests.m; sourceTree = "<group>"; };
+		1B9EB9C416630526001B788B /* Snake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Snake.h; path = ../Snake.h; sourceTree = "<group>"; };
+		1B9EB9C516630526001B788B /* Snake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Snake.m; path = ../Snake.m; sourceTree = "<group>"; };
+		1B9EB9C716630554001B788B /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		1B9EB9C816630554001B788B /* World.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = World.m; sourceTree = "<group>"; };
+		1B9EB9CA1663058A001B788B /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
+		1B9EB9CB1663058A001B788B /* Direction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Direction.m; sourceTree = "<group>"; };
+		1B9EB9D11663099B001B788B /* NibblesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NibblesView.h; sourceTree = "<group>"; };
+		1B9EB9D21663099B001B788B /* NibblesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NibblesView.m; sourceTree = "<group>"; };
+		1BA60FB41667EFED005C5D5C /* snakeElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snakeElement.h; sourceTree = "<group>"; };
+		1BA60FB51667EFED005C5D5C /* snakeElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = snakeElement.m; sourceTree = "<group>"; };
+		1BA60FB81667F0E9005C5D5C /* snakeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snakeList.h; sourceTree = "<group>"; };
+		1BA60FB91667F0E9005C5D5C /* snakeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = snakeList.m; sourceTree = "<group>"; };
+		1BA60FBB1667F143005C5D5C /* snakeQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snakeQueue.h; sourceTree = "<group>"; };
+		1BA60FBC1667F143005C5D5C /* snakeQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = snakeQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +134,23 @@
 			isa = PBXGroup;
 			children = (
 				1B9EB99E166303D2001B788B /* AppDelegate.h */,
+				1B9B29FA16642C0800A3787E /* NibblesConstants.h */,
 				1B9EB99F166303D2001B788B /* AppDelegate.m */,
+				1B9EB9C716630554001B788B /* World.h */,
+				1B9EB9C816630554001B788B /* World.m */,
+				1B9EB9CA1663058A001B788B /* Direction.h */,
+				1B9EB9CB1663058A001B788B /* Direction.m */,
+				1BA60FB41667EFED005C5D5C /* snakeElement.h */,
+				1BA60FB51667EFED005C5D5C /* snakeElement.m */,
+				1BA60FB81667F0E9005C5D5C /* snakeList.h */,
+				1BA60FB91667F0E9005C5D5C /* snakeList.m */,
+				1BA60FBB1667F143005C5D5C /* snakeQueue.h */,
+				1BA60FBC1667F143005C5D5C /* snakeQueue.m */,
+				1B9EB9C416630526001B788B /* Snake.h */,
+				1B9EB9C516630526001B788B /* Snake.m */,
 				1B9EB9A1166303D2001B788B /* MainStoryboard.storyboard */,
+				1B9EB9D11663099B001B788B /* NibblesView.h */,
+				1B9EB9D21663099B001B788B /* NibblesView.m */,
 				1B9EB9A4166303D2001B788B /* ViewController.h */,
 				1B9EB9A5166303D2001B788B /* ViewController.m */,
 				1B9EB996166303D2001B788B /* Supporting Files */,
@@ -261,6 +298,13 @@
 				1B9EB99C166303D2001B788B /* main.m in Sources */,
 				1B9EB9A0166303D2001B788B /* AppDelegate.m in Sources */,
 				1B9EB9A6166303D2001B788B /* ViewController.m in Sources */,
+				1B9EB9C616630526001B788B /* Snake.m in Sources */,
+				1B9EB9C916630554001B788B /* World.m in Sources */,
+				1B9EB9CC1663058A001B788B /* Direction.m in Sources */,
+				1B9EB9D31663099B001B788B /* NibblesView.m in Sources */,
+				1BA60FB61667EFED005C5D5C /* snakeElement.m in Sources */,
+				1BA60FBA1667F0E9005C5D5C /* snakeList.m in Sources */,
+				1BA60FBD1667F143005C5D5C /* snakeQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +480,7 @@
 				1B9EB9C0166303D3001B788B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B9EB9C1166303D3001B788B /* Build configuration list for PBXNativeTarget "TristanMcCormickNibblesTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +489,7 @@
 				1B9EB9C3166303D3001B788B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
